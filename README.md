@@ -24,7 +24,7 @@ Este projeto foi construído passo a passo para implementar cenários reais de a
 
 2. **Herança:**
    * A classe abstrata `Pessoa` atua como superclasse para `Lutador` e `Treinador`, reaproveitando atributos comuns (nome, CPF, data de nascimento).
-   * Especialização de lutadores com as classes `LutadorBoxe` e `LutadorMuayThai`.
+   * Especialização de lutadores com a classe `LutadorBoxe`.
 
 3. **Polimorfismo:**
    * Sobrescrita (`@Override`) do método `atacar()` nas classes filhas, permitindo que cada modalidade execute golpes específicos de forma dinâmica.
