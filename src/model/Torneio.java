@@ -12,7 +12,7 @@ public class Torneio {
     private Map<String, List<Lutador>> categoriaDepeso;
 
 
-    public Torneio(String nome, Map<String, List<Lutador>> categoriaDepeso) {
+    public Torneio(String nome) {
         this.nome = nome;
         this.categoriaDepeso = new HashMap<>();
     }

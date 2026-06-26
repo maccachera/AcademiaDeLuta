@@ -28,8 +28,7 @@ import java.time.Period;
     }
 
 
-
-
-
-
-}
+     public String getNome() {
+         return nome;
+     }
+ }
